@@ -69,7 +69,9 @@ body{
     }
     .reglamento div{
         margin-left: auto;
-        margin-top: 65%;        
+        margin-top: 65%;
+        margin-left: 0%;
+        flex: 0 0 100%;
     }
     /*tamaño de los botones*/
     .menu li a img{
