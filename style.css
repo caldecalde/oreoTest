@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(61, 135, 196);
+    background-size: cover;
+    background-position: center;
+    padding: 0 5% 5% 5%;
+    margin-top: -3px;
+    height: 100vh;
+}
+.menu{/*menu superior, padre flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -1px;
+}
+.menu li {/*hijos de menu superior*/
+    height: 0px;
+    width:auto;
+    list-style: none;
+}
+.menu li a img{/*imagenes del menu*/
+    height: 5vh;
+    max-width: 100%;
+}
+.inicio{
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./imagenes/inicio-h.png);
+    
+}
+.ganadores{
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./imagenes/ganadores-h.png);
+}
+.reglamento{
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./imagenes/reglamento-h.png);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.reglamento div{
+    background-color: white;
+    overflow: scroll;
+    padding: 5px;
+    margin-left: 30%;
+    height: 50vh;
+    width: 70vh;
+    flex: 0 0 50%;    
+}
+
+@media only screen and (max-width: 500px) {
+    .inicio{
+        background-image: url(./imagenes/inicio-v.png);
+    }
+    .reglamento{
+        background-image: url(./imagenes/reglamento-v.png);
+    }
+    .ganadores{
+        background-image: url(./imagenes/ganadores-v.png);
+    }
+    .reglamento div{
+        margin-left: auto;
+        margin-top: 55%;        
+    }
+    /*tamaño de los botones*/
+    .menu li a img{
+        width: 100%;
+    }
+}
