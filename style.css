@@ -51,9 +51,9 @@ body{
     background-color: white;
     overflow: scroll;
     padding: 5px;
-    margin-left: 30%;
+    margin-left: 35%;
     height: 50vh;
-    width: 70vh;
+    width: 90vh;
     flex: 0 0 50%;    
 }
 
@@ -69,7 +69,7 @@ body{
     }
     .reglamento div{
         margin-left: auto;
-        margin-top: 55%;        
+        margin-top: 65%;        
     }
     /*tamaño de los botones*/
     .menu li a img{
